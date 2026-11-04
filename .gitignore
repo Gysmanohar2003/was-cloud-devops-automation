@@ -1,0 +1,30 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Mac
+.DS_Store
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+crash.log
+override.tf
+override.tf.json
+
+# AWS credentials and private configuration
+.aws/
+.env
+*.pem
+*.key
+terraform.tfvars
+backend.hcl
+
+# IDE
+.vscode/
+bootstrap/plan.txt
